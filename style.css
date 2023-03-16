@@ -18,11 +18,21 @@ a{
     color:#444;
     text-decoration: none;
 }
+p{font-size: 0.8rem;}
 a:hover {
     color: #888;
     cursor: pointer;
     font-size: 1.1rem;
   }
+.par{
+    display: flex;
+    justify-content: space-between;   
+}
+.paragraph{
+    text-align: left;
+    min-width: 25rem;
+    max-width: 50%;
+}
 .divline{
     display: inline-block;
     width: 150px;
@@ -34,9 +44,10 @@ a:hover {
 
 }
 .wide-line{
-    margin-top: 28rem;
+    margin-top: 25rem;
     width: 100%;  
 }
+
 main{
     display: flex;
     justify-content: space-around;
