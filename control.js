@@ -13,7 +13,7 @@ setTimeout(() => typeWriter(txt2, ".second", j), 18000)
 function typeWriter(txt, location, param, func) {
     
     if(param < txt.length) {
-        document.querySelector(location).innerHTML += txt.charAt(param);
+        document.querySelector(location).innerHTML+= txt.charAt(param);
         param++;
        setTimeout(() => typeWriter(txt, location, param), speed) 
     }

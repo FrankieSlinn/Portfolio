@@ -26,22 +26,21 @@ a:hover {
   }
 .par{
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    width: 100vw;
+    gap: 2rem;  
 }
 .paragraph{
     text-align: left;
-    min-width: 25rem;
-    max-width: 50%;
+    width: 48vw;
 }
 .divline{
     display: inline-block;
     width: 150px;
     margin-bottom: 0.3rem;
 }
-
 .divline, .wide-line{
     border-bottom: 3px solid white;
-
 }
 .wide-line{
     margin-top: 25rem;
