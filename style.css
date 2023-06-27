@@ -130,4 +130,11 @@ footer a{
     flex-direction: column;
 }
   }
+  @media (max-width: 500px) {
+    .topics{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+      }
 
