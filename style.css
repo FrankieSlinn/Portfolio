@@ -137,6 +137,16 @@ footer a{
         display: flex;
         flex-direction: column;
     }
+    .paragraph{
+        padding: 1rem;
+      
+    }
+    .first{
+        margin-left: 1rem;
+    }
+    .second{
+        margin-right: 1rem;
+    }
  
       }
 
