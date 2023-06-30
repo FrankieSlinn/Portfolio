@@ -139,13 +139,18 @@ footer a{
     }
     .paragraph{
         padding: 1rem;
+        width: 30vw;
+     
+
+    
       
     }
     .first{
-        margin-left: 1rem;
+        margin-left: 2rem;
+        
     }
     .second{
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
  
       }
