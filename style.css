@@ -177,18 +177,9 @@ footer a{
     flex-direction: column;
     gap: 0.5rem;
     margin: 1rem 0;
-    height: 5rem;
-}
-/* .image-container {
-    margin-top: 15rem; /* Adjust the margin-top value as needed */
-    /* width: 100vw;
-    padding-bottom: 60.25%;
-    height: 0;
-  } */
-
-  /* .image-container img {
     height: auto;
-  } */ 
+}
+
 
 
   }
@@ -199,18 +190,16 @@ footer a{
     }
     .paragraph{
         padding: 1rem;
-        width: 30vw;
+        max-width: 35vw;
      
-
-    
       
     }
     .first{
-        margin-left: 2rem;
+        margin-left: 1rem;
         
     }
     .second{
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
  
       }
