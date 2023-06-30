@@ -19,3 +19,15 @@ function typeWriter(txt, location, param, func) {
        setTimeout(() => typeWriter(txt, location, param), speed) 
     }
 }
+const imageContainer = document.querySelector('.image-container');
+const image = document.querySelector('.image-container img');
+
+        // Wait for 7 seconds before starting the animation
+        setTimeout(function() {
+            image.style.animationPlayState = 'running';
+        }, 7000);
+
+        // Wait for 11 seconds before removing the image element from the DOM
+        setTimeout(function() {
+            imageContainer.remove();
+        }, 11000);

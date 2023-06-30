@@ -66,7 +66,7 @@ a:hover {
     border-bottom: 3px solid white;
 }
 .wide-line{
-    margin-top: 25rem;
+    margin-top: 20rem;
     width: 100%;  
 }
 .links{
@@ -97,6 +97,52 @@ main a{
 }
 footer a{
     color: #777;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  width: 100vw;
+  padding-bottom: 60.25%; /* Set the aspect ratio of the image (e.g., 16:9) */
+  margin-bottom: -20rem;
+  margin-top: -15rem;
+  overflow: auto;
+}
+
+.image-container img {
+  position: absolute;
+  bottom: 2rem;
+
+  opacity: 0;
+  animation: imageAnimation 8s linear forwards;
+  max-width: 100%;
+  max-height: 100%;
+  animation-delay: 7s;
+  margin-top: -30rem;
+}
+
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    20% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    80% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
 }
 @media (max-width: 1200px) {
     a{
@@ -130,6 +176,17 @@ footer a{
     flex-direction: column;
     gap: 0.5rem;
     margin: 1rem 0;
+    height: 5rem;
+}
+.image-container img {
+    width: 15rem;
+    height: auto;
+    margin-top: 5rem;    
+    margin-bottom: -10rem;
+}
+.image-container{
+    padding-bottom: 60.25%;
+
 }
   }
   @media (max-width: 500px) {
